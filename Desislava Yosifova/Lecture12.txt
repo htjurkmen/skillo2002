@@ -8,4 +8,6 @@
 4. INSERT INTO Customers (ContactName)
    Values ('Chis Wolf');
 
-5. 
+5. UPDATE orders
+   SET EmployeeID = '1'
+   WHERE EmployeeID = '2';
