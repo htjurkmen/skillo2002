@@ -7,6 +7,19 @@
   width: 300px;
   margin: 0 auto;
 }
+.text {
+width: 60%;
+margin: 0 auto;
+}
+.text span {
+  color: red;
+  font-weight: bold;
+  font-size: 2em;
+}
+.text span+span {
+  font-weight: bolder;
+  font-size: 1em;
+}
 table {
   width: 60%;
   margin: 0 auto;
