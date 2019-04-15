@@ -1,0 +1,63 @@
+:root {
+  background-color: whitesmoke;
+}
+
+.center {
+  text-align: center;
+  width: 300px;
+  margin: 0 auto;
+}
+table {
+  width: 60%;
+  margin: 0 auto;
+}
+
+caption {
+  font-weight: bolder;
+}
+
+th {
+  color: white;
+  padding: 5px 15px 15px;
+  background-color: #4F81BD
+}
+
+td {
+  padding: 5px 15px 40px;
+  font-weight: bolder;
+}
+
+tr:nth-child(even) {
+  background-color: #D0D8E8
+}
+
+tr:nth-child(odd) {
+  background-color: #E9EDF4;
+}
+
+table,
+th,
+td {
+  border: 4px solid whitesmoke;
+  border-collapse: collapse;
+  text-align: center;
+  vertical-align: top;
+}
+.login {
+  position: absolute;
+  left: 45px;
+  top: 50px;
+}
+.login p {
+  margin: 2px;
+}
+.radio {
+  position: absolute;
+  right: 45px;
+  top: 20px;
+}
+.checkbox {
+  position: absolute;
+  left: 45px;
+  top: 360px;
+}
